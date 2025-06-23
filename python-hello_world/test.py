@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 password = ""
-timesIntered = 1
+timesIntered = 2
 length = 0
 while password != "secret123":
     password = input("Enter password: ")
@@ -14,6 +14,7 @@ while password != "secret123":
         timesIntered = timesIntered + 1
     elif length < 8:
         print("Error Too short.")
+        timesIntered = timesIntered + 1
     elif not any(c.isdigit() for c in password):
         print("Error: Need a digit.")
         timesIntered = timesIntered + 1
