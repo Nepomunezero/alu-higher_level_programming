@@ -6,4 +6,4 @@ def print_last_digit(number):
     else:
         remainder = number % -10
         print("{}".format(-remainder), end='')
-        return abs(remainder)
+    return abs(remainder)
