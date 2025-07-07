@@ -5,7 +5,7 @@ def pow(a, b):
         b = -b
         for i in range(b):
             answer *= a
-            answer = 1 / answer
+         answer = 1 / answer
     else:
         for i in range(b):
             answer *= a
