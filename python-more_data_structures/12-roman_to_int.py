@@ -19,5 +19,3 @@ def roman_to_int(roman_string):
 
         prev_value = current_value
     return total
-
-print(roman_to_int('XIV'))
